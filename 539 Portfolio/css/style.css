@@ -1,12 +1,6 @@
-/*#indeximg { 
-  background: url('../images/hongkongnight.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-body.index {
+.index {
+	background: white;
+	background: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));	
 	background: url('../images/newyork.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,10 +17,22 @@ header {
 	background:rgba(255,255,255,0.2);*/
 }
 
+.pages header{
+	background:url('../images/newyork.jpg');
+	background-size:50%;
+	padding:1%;
+
+}
+
 /*Everything here relates to the styling of my name*/
 #name {
 	font-family: 'Montserrat', serif;
 	font-size:2em;
+}
+
+#name a{
+	color:white;
+	text-decoration: none;
 }
 
 #landname {
@@ -38,6 +44,7 @@ header {
 #landname a{
 	text-decoration: none;
 	color:white;
+	background:rgba(0,0,0,.4);
 }
 
 /*These relate to the styling of the nav bar*/
@@ -47,25 +54,40 @@ header {
 	padding-right: 5%;
 	font-family: 'Montserrat', serif;
 	font-size:.8em;
+	margin-bottom: 20%;
 }
 
 #homenavlist a{
 	text-decoration: none;
 	color:white;
+	border-style:solid;
+	border-color: white;
+	border-width: 1px;
+	padding:3px;
 }
 
 #homenavlist a:hover{
 	background-color:white;
+	padding:8px;
 	color:black;
 }
 
 #intro {
-	text-align: center;
+	align: center;
 	font-family: 'Raleway', serif;
-	font-size:1em;
+	font-size:1.5em;
+	color:white;
 
-/*	background:rgba(255,255,255,0.4);*/
+}
 
+
+/*Body stuff*/
+.myportrait {
+	display:none;
+}
+
+.center {
+	align:center;
 }
 
 /*Down here we've got the footer styling*/
@@ -75,9 +97,17 @@ header {
 	padding-right: 5%;
 }
 
+#footlist a:hover{
+	background:rgba(255, 0, 131,.5);
+	padding: 20px 1px 1px 1px;
+	border-radius: 10px;
+}
+
+
 .socialIcons{
 	height:2em;
 }
+
 
 
 #copyright {
@@ -91,5 +121,13 @@ footer {
 	right:0;
 	left:0;
 	background:rgba(255,255,255,0.8);
+}
+
+
+@media only screen and (min-width: 768px){
+	.myportrait{
+		display:block;
+		height:300px;
+	}
 }
 
