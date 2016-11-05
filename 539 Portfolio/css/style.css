@@ -1,0 +1,95 @@
+/*#indeximg { 
+  background: url('../images/hongkongnight.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+body.index {
+	background: url('../images/newyork.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*This is everything in the header!*/
+header {
+	text-align: center;
+/*	position:fixed;
+	right:0;
+	left:0;
+	background:rgba(255,255,255,0.2);*/
+}
+
+/*Everything here relates to the styling of my name*/
+#name {
+	font-family: 'Montserrat', serif;
+	font-size:2em;
+}
+
+#landname {
+	font-family: 'Montserrat', serif;
+	font-size: 4em;
+	color:black;
+}
+
+#landname a{
+	text-decoration: none;
+	color:white;
+}
+
+/*These relate to the styling of the nav bar*/
+#homenavlist li {
+	display:inline;
+	text-decoration: none;
+	padding-right: 5%;
+	font-family: 'Montserrat', serif;
+	font-size:.8em;
+}
+
+#homenavlist a{
+	text-decoration: none;
+	color:white;
+}
+
+#homenavlist a:hover{
+	background-color:white;
+	color:black;
+}
+
+#intro {
+	text-align: center;
+	font-family: 'Raleway', serif;
+	font-size:1em;
+
+/*	background:rgba(255,255,255,0.4);*/
+
+}
+
+/*Down here we've got the footer styling*/
+#footlist li {
+	display:inline;
+	list-style-type: none;
+	padding-right: 5%;
+}
+
+.socialIcons{
+	height:2em;
+}
+
+
+#copyright {
+	font-size:.7em;
+}
+
+footer {
+	text-align: center;
+	position:fixed;
+	bottom:1%;
+	right:0;
+	left:0;
+	background:rgba(255,255,255,0.8);
+}
+
