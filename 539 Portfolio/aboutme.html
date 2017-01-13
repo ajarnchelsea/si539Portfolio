@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chelsea Miller | About Me</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Montserrat">
+     <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body class="pages" id="aboutme">
+	<header>
+		<h1 id="name"><a href="index.html">CHELSEA MILLER</a></h1>
+		<div>
+			<nav id="navcontainer">
+			<ul id="homenavlist">
+				<li><a href="index.html">home</a></li>
+				<li><a href="photos.html">photos</a></li>
+				<li><a href="resume.html">resume</a></li>
+				<li id="currentpage"><a href="aboutme.html">about</a></li>
+			</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="bodytxt">
+	<h1>Hi! I'm Chelsea.</h1>
+	<div id="blurb">
+	<p> I am a first year master's student of Human-computer Interaction at the University of Michigan School of Information. I am interested in user experience research and interaction design.</p>
+	<p>I also represent the School of Information as a Coleman-Munger Fellow at the Munger Graduate Residences. I am a part of our Data Analysis Committee, where I use contextual inquiry to identify opportunities for programmatic growth.</p>
+	<p>Before starting this program, I taught English in Bangkok, Thailand for three years; studied abroad in Hong Kong for a semester; and traveled through more than 11 countries throughout Asia.</p>
+	<br/>
+	</div>
+	
+	<div id="maparea"
+	<h2>Cities in which I've lived:</h2>
+	<div id="map" align="center"></div>
+	</div>
+	</div>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+<script>
+function myMap() {
+	var myCenter = new google.maps.LatLng(42.280826, -83.743038);
+  	var mapCanvas = document.getElementById("map");
+  	var mapOptions = {center: myCenter, zoom: 2}
+  	var map = new google.maps.Map(mapCanvas, mapOptions);
+  	var marker = new google.maps.Marker({position:myCenter})
+  	marker.setMap(map);
+  	var bkk = new google.maps.LatLng(13.756331, 100.501765);
+  	var marker2 = new google.maps.Marker({position:bkk})
+  	marker2.setMap(map);
+  	var hk = new google.maps.LatLng(22.396428, 114.109497);
+  	var marker3 = new google.maps.Marker({position:hk})
+  	marker3.setMap(map);
+  	var ny = new google.maps.LatLng(40.712784, -74.005941);
+  	var marker4 = new google.maps.Marker({position:ny})
+  	marker4.setMap(map);
+  	var bmc = new google.maps.LatLng(40.023024, -75.315177);
+  	var marker5 = new google.maps.Marker({position:bmc})
+  	marker5.setMap(map);
+  	
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+	</div>
+
+    <footer class="footer">
+    	<ul id="footlist">
+			<li><a href="https://www.linkedin.com/in/millerchelsealauren" target="_blank"><img class="socialIcons" src=images/liLogo.png alt="My LinkedIn Profile"></a></li>
+			<li><a href="https://www.instagram.com/millerchelsea/" target="_blank"><img class="socialIcons" src=images/instagramLogo.png alt="My Instagram Profile"></a></li>
+			<li><a href="http://www.github.com/ajarnchelsea" target="_blank"><img class="socialIcons" src=images/githubLogo.png alt="My Github Profile"></a></li>
+		</ul>
+		<p id="copyright">Coded by Chelsea Miller &copy; 2016</p>
+    </footer>		
+
+</body>
+</html>
