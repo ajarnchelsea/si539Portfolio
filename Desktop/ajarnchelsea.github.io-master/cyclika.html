@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chelsea Miller | UX Design</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script src="https://use.fontawesome.com/0acf032063.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90963537-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+
+
+<body>
+	<!-- ======= Navigation start ======= -->
+	<div class="navigation-exterior">
+		<div class="navigation-interior">
+			<div class="navigation-link">
+				<span id="title"><a href="index.html">CHELSEA MILLER</a></span>
+			</div>
+			<ul>
+			<div class="navigation-links">
+				<li><a href="index.html" class="navigation-link" style="text-decoration-line: underline;">Projects</a></li>
+				<li><a href="about.html" class="navigation-link">About</a></li>
+				<li><a href="resume.html" class="navigation-link">Resume</a></li>
+			</div>
+			</ul>
+		</div>
+	</div>
+	<!-- ======= Navigation end ======= -->
+
+	<!-- ======= Interior start ======= -->
+	<div>
+
+		<!-- ======= Project start ======= -->	
+		<div class="portfoliobody">
+			<div class="summary">
+				<h1>CYCLIKA</h1>
+				<h2 class="tagline"><b>Empowering hearing impaired cyclists to take back their roads.</b></h2>
+				<img src="images/cyclika.png" alt="" class="portphotoshead"/>
+				<p>
+					<b>Timeline:</b> September – January 2016<br/><br/>
+					<b>Methods:</b> Contextual Interviews, Sketching, Paper Prototyping, Usability Testing, Digital Prototyping
+					<b>Role:</b> UX Researcher and Designer<br/><br/>
+					I was part of a 5 student team preparing for the CHI Student Design Competition 2017. We rotated through the roles of UX researchers and designers each week to round out our experience with interviewing, conducting observations, sketching, and prototyping.
+				</p>
+			</div>
+					
+			<div class="gray">
+				<h2>Overview</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Jm8-s-AaQWs" frameborder="0" allowfullscreen class="vid" style="width:55%;"></iframe>
+				<p><b>Cyclika</b> is a handlebar-mounted device that supports cyclists by visually alerting them of vehicles approaching from behind. <br/><br/>
+
+				Our team was inspired by the 2017 CHI Student Design Competition challenge: to develop an intervention that would empower underserved user groups to engage in activities that would otherwise be out of reach. We asked ourselves how we could improve bike safety for hearing-impaired individuals.<br/><br/>
+				
+				While we initially focused our population scope to encompass cyclists experiencing permanent hearing-impairment seeking safer conditions while riding in high traffic areas, we found in our research that cyclists experiencing situational or temporary hearing-impairment are also seeking ways to take more active control of their safety. According to a 2012 survey by the US Department of Transportation, 83% of American cyclists feel a threat to their personal safety when motorists drive too fast or too close. Moreover, cyclists living in underserved communities with poor road conditions risk significantly higher rates of injury and fatality. We set out to empower these users.</p>
+				<img src="images/chart1.png" alt="" class="cyclikaphotos"/>
+				<img src="images/chart2.png" alt="" class="cyclikaphotos"/>
+				<p id="charttitle"><em>Data from US Department of Transportation Survey, 2012</em></p>
+			</div>
+
+			<div class="white">
+				<h2>Requirements</h2>
+				<p>We defined the following requirements to guide our research and design process:</p>
+				<ul>
+					<li>to detect rear-approaching traffic</li>
+					<li>to provide feedback that relays information about nearby vehicles</li>
+					<li>to alert users about varying levels of urgency of nearby traffic</li>
+					<li>to allow users to proactively indicate to nearby motorists their intention to turn</li>
+					<li>to empower individuals to cycle confidently in traffic</li>
+				</ul>
+			</div>
+
+
+			<div class="gray">
+				<h2>Ideation</h2>
+				<p>After a preliminary literature review and competitive analysis, our team conducted three contextual interviews with users who have experienced hearing-impairment to varying extents. We then conducted two contextual interviews with students who commute by bicycle several times a week to better understand the experience and concerns cyclists face when riding in high-volume traffic.</p>
+						
+				<h3>Brainstorming</h3>
+				<p>Next, we brainstormed: methods that we could use to provide users with feedback about their surrounding environment; sensors we could use to detect user surroundings; and the physical form the device itself could take.</p>
+				<img src="images/cbrain.png" alt="" class="cyclikaphotos"/>
+				<p>We decided that visual feedback would be most effective. From our competitive analysis, we learned that haptic feedback methods have been explored in this context, but after talking with users, it was apparent that haptic feedback could be confused with bumpy road conditions or mobile phone vibrations, and ultimately either distract the user or lead to a lack of engagement. <br/><br/>
+				
+				We also discussed where to place the device: should the user wear it, or should it be mounted on the bike? Again, users pointed us towards mounting the device on the bicycle handlebars, as that location can provide alerts in the periphery of the user's vision without obstructing their main field of vision.</p>
+						
+				<h3>Sketching</h3>
+				<p>We sketched out different concepts, and discussed them with potential users.</p>
+				<img src="images/cproto.png" alt="" class="cyclikaphotos"/>
+				<img src="images/cpproto.png" alt="" class="cyclikaphotos"/>
+			</div>	
+
+			<div class="white">
+				<h3>Digital Prototype and User Testing</h3>
+				<p>Our final concept consisted of two main parts. Users mount a small interface on the center of their handlebars. When a triangle lights up, it indicates that a vehicle is approaching the cyclist, who is represented by the circle at the top. The interface uses space and color to assist users in identifying their proximity to the vehicle. The interface is visible in the cyclist’s peripheral vision, and can be used during the day as well as at night.</p>
+				<img src="images/handle.png" alt="" class="portphotos"/>
+				<p>Cyclika detects vehicles with a radar mounted below the seat. Attached to the radar is a grid of LED lights that cyclists can use to indicate turns. Users can activate the rear lights using buttons on the handlebar. </p>
+				<img src="images/back6.png" alt="" class="portphotos" id="backbike"/>
+				<p>We developed digital animations to replicate Cyclika's user experience so that we could test the clarity of the product's visual alerts with users. Our initial prototype featured 9 columns of lights. After conducting two initial usability tests, we found that users were confused by the proximity of vehicles with that many columns. One user wondered "if a vehicle is four columns away, does that mean I don't have to worry about it?" We decided to pare down our design to feature five columns. If a vehicle is two columns away, it will pass them without harm; if it is one column away, it is potentially dangerous; and if it is in the same column, it is approaching directly from behind and is of more extreme danger.</p>
+			</div>
+
+			<div class="gray">
+				<h2>Reflection</h2>
+				<p>Our team learned a lot about prioritization while developing Cyclika. While we were chiefly concerned during the design process with the product’s usability and efficacy of increasing safety for cyclists, we also aimed to increase accessibility by choosing materials that would keep cost low. While RADAR and LIDAR detection systems are becoming more affordable, their price is still relatively high. However, lower priced detection systems, like cameras, have a much smaller range of detection, which renders them too ineffective to meet our requirements.<br/><br/>
+				
+				Thus, it is important to prioritize user needs when designing products that strive to be both usable and affordable. As user experience designers, we are here to represent the users. If a low cost is the most important factor driving a design, it is important to consider design choices that improve safety by utilizing less expensive materials.<br/><br/>
+				
+				Additionally, we received very valuable feedback from the judges of the CHI competition. Their main concern was related to the potential for the product to distract users and potentially lead to danger. Even though the product is in the periphery of the user's vision, could it potentially be distracting and continually draw user's line of sight to the product and away from the road itself? This is a very important concern, and one that draws back our original question about feedback methods. Is visual feedback really the most effective? And if so, how can it be used without distracting the user?</p>
+			</div>
+
+		</div>
+		<!-- ======= Project end ======= -->
+				
+		<!-- ======= Footer start ======= -->
+		<div class="footer" id="footer">
+			<ul id="footlist">
+				<li><a href="https://www.linkedin.com/in/millerchelsealauren" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/millerchelsea/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="http://www.github.com/ajarnchelsea" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+				<li><a href="mailto:milchels@gmail.com" target="_top"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a></li>
+			</ul>				
+			<p>Coded by hand, with patience and love. © Chelsea Miller 2017</p>
+		</div>
+		<!-- ======= Footer end ======= -->
+
+	</div>
+	<!-- ======= Interior end ======= -->
+</body>
+</html>
